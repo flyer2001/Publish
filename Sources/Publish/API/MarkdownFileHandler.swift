@@ -7,8 +7,8 @@
 import Files
 import CollectionConcurrencyKit
 
-internal struct MarkdownFileHandler<Site: Website> {
-    func addMarkdownFiles(
+public struct MarkdownFileHandler<Site: Website> {
+    public func addMarkdownFiles(
         in folder: Folder,
         to context: inout PublishingContext<Site>
     ) async throws {
