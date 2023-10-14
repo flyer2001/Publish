@@ -8,6 +8,8 @@ import Files
 import CollectionConcurrencyKit
 
 public struct MarkdownFileHandler<Site: Website> {
+    public init() {}
+    
     public func addMarkdownFiles(
         in folder: Folder,
         to context: inout PublishingContext<Site>
